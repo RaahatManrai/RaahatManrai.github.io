@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+# Pin ffi for Ruby 2.6 compatibility
+gem 'ffi', '~> 1.16.0'
+
 group :jekyll_plugins do
   gem 'jekyll'
   gem 'jekyll-feed'
