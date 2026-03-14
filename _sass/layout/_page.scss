@@ -43,6 +43,11 @@
   }
 }
 
+/* Homepage: center the main heading at top */
+.page--home .page__inner-wrap header {
+  text-align: center;
+}
+
 .page__lead {
   font-family: $global-font-family;
   font-size: $type-size-4;
