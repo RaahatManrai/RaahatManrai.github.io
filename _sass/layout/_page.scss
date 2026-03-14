@@ -44,7 +44,8 @@
 }
 
 /* Homepage: center the main heading at top */
-.page--home .page__inner-wrap header {
+.page--home .page__inner-wrap header,
+.page--home .page__title {
   text-align: center;
 }
 
