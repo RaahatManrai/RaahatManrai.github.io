@@ -6,7 +6,7 @@ redirect_from:
   - /about.html
 ---
 
-<p style="margin-top: -0.75em; font-style: italic; color: var(--global-text-color-light);">Counselling services by Dr Raahat Manrai</p>
+<p style="margin-top: -0.75em; font-style: italic; color: var(--global-text-color-light); text-align: center;">Counselling services by Dr Raahat Manrai</p>
 
 ---
 
