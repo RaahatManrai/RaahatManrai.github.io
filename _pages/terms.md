@@ -1,6 +1,9 @@
 ---
-permalink: /terms/
-title: "Terms and Privacy Policy"
+permalink: /terms-and-conditions/
+title: "Terms and conditions"
+author_profile: true
+redirect_from:
+  - /terms/
 modified: 2016-06-06
 ---
 
