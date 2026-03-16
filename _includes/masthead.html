@@ -9,26 +9,40 @@
             <a href="{{ base_path }}/">{{ site.title }}</a>
           </li>
           {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-            {% else %}
-              {% assign domain = base_path %}
-            {% endif %}
-            <li class="masthead__menu-item {% if link.children %}masthead__menu-item--dropdown{% endif %}{% if link.cta %} masthead__menu-item--cta{% endif %} {% if page.url contains link.url and link.url != '/' %}selected{% endif %}">
-              <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
-              {% if link.children %}
-              <ul class="masthead__dropdown">
-                {% for child in link.children %}
-                  {% if child.url contains 'http' %}
-                    {% assign child_domain = '' %}
-                  {% else %}
-                    {% assign child_domain = base_path %}
-                  {% endif %}
-                <li><a href="{{ child_domain }}{{ child.url }}">{{ child.title }}</a></li>
-                {% endfor %}
-              </ul>
+            {% unless link.cta %}
+              {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+              {% else %}
+                {% assign domain = base_path %}
               {% endif %}
-            </li>
+              <li class="masthead__menu-item {% if link.children %}masthead__menu-item--dropdown{% endif %} {% if page.url contains link.url and link.url != '/' %}selected{% endif %}">
+                <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+                {% if link.children %}
+                <ul class="masthead__dropdown">
+                  {% for child in link.children %}
+                    {% if child.url contains 'http' %}
+                      {% assign child_domain = '' %}
+                    {% else %}
+                      {% assign child_domain = base_path %}
+                    {% endif %}
+                  <li><a href="{{ child_domain }}{{ child.url }}">{{ child.title }}</a></li>
+                  {% endfor %}
+                </ul>
+                {% endif %}
+              </li>
+            {% endunless %}
+          {% endfor %}
+          {% for link in site.data.navigation.main %}
+            {% if link.cta %}
+              {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+              {% else %}
+                {% assign domain = base_path %}
+              {% endif %}
+              <li class="masthead__menu-item masthead__menu-item--cta persist {% if page.url contains link.url and link.url != '/' %}selected{% endif %}">
+                <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+              </li>
+            {% endif %}
           {% endfor %}
           <li id="theme-toggle" class="masthead__menu-item persist tail">
             <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
