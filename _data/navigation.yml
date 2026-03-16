@@ -8,17 +8,8 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "Talks"
-    url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Session Structure"
-    url: /session-structure/
-
   - title: "About me"
-    url: /about/
+    url: /about-me/
     children:
       - title: "Blog Posts"
         url: /year-archive/
@@ -26,9 +17,9 @@ main:
         url: /cv/
       - title: "Publications"
         url: /publications/
-    
-  # - title: "CV"
-  #   url: /cv-json/
-    
+
+  - title: "Session Structure"
+    url: /session-structure/
+
   - title: "Fee Guide"
-    url: /markdown/
+    url: /fee-guide/
