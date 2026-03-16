@@ -18,10 +18,10 @@ main:
     url: /teaching/    
     
   - title: "Session Structure"
-    url: /portfolio/
+    url: /session-structure/
 
   - title: "About me"
-    url: /
+    url: /about/
     children:
       - title: "Blog Posts"
         url: /year-archive/
