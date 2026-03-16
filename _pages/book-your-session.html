@@ -1,0 +1,20 @@
+---
+layout: single
+title: "Book your session"
+permalink: /book-your-session/
+author_profile: true
+---
+
+Ready to take the first step? Choose a time that works for you below. Sessions are 30 minutes and held online — from wherever you are in India.
+
+{% if site.booking_url %}
+<div class="booking-calendar" style="margin-top: 2em;">
+  <!-- Calendly inline widget -->
+  <div class="calendly-inline-widget" data-url="{{ site.booking_url }}" style="min-width:320px;height:700px;"></div>
+  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+</div>
+{% else %}
+<div style="margin-top: 2em; padding: 2em; background: var(--global-code-background-color); border-radius: 8px; text-align: center;">
+  <p><strong>Booking calendar coming soon.</strong></p>
+</div>
+{% endif %}
