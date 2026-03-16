@@ -92,7 +92,7 @@ publication_category:
     title: 'Conference Papers'
 
 # Booking calendar - Add your Calendly or Cal.com embed URL (e.g. https://calendly.com/yourname/30min)
-booking_url              :
+booking_url              : "https://calendly.com/raahat-manrai/30min"
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

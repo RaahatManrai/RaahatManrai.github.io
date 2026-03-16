@@ -9,7 +9,9 @@ Book a session at a time that works for you. The calendar below shows my current
 
 {% if site.booking_url %}
 <div class="booking-calendar" style="margin-top: 2em;">
-  <iframe src="{{ site.booking_url }}" width="100%" height="700" frameborder="0" style="border-radius: 8px; min-height: 700px;"></iframe>
+  <!-- Calendly inline widget -->
+  <div class="calendly-inline-widget" data-url="{{ site.booking_url }}" style="min-width:320px;height:700px;"></div>
+  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 </div>
 {% else %}
 <div class="booking-placeholder" style="margin-top: 2em; padding: 2em; background: var(--global-code-background-color); border-radius: 8px; text-align: center;">
