@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Counselling Services"
+title: "Thoughtful Counselling Online"
 author_profile: true
 redirect_from: 
   - /about/

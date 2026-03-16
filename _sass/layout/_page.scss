@@ -43,10 +43,14 @@
   }
 }
 
-/* Homepage: center the main heading at top */
+/* Homepage: center the main heading at top, slightly larger font */
 .page--home .page__inner-wrap header,
 .page--home .page__title {
   text-align: center;
+}
+
+.page--home .page__title {
+  font-size: $type-size-2;
 }
 
 .page__lead {
