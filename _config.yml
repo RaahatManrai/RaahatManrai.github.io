@@ -91,6 +91,9 @@ publication_category:
   conferences:
     title: 'Conference Papers'
 
+# Booking calendar - Add your Calendly or Cal.com embed URL (e.g. https://calendly.com/yourname/30min)
+booking_url              :
+
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
