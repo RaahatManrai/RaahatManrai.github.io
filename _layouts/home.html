@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<div id="main" role="main" class="main--home">
+  <article class="home" itemscope itemtype="http://schema.org/WebPage">
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    <section class="home__content" itemprop="text">
+      {{ content }}
+    </section>
+  </article>
+</div>

@@ -1,0 +1,278 @@
+/* ==========================================================================
+   HOMEPAGE
+   ========================================================================== */
+
+.main--home {
+  margin-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  max-width: none;
+}
+
+.home__content {
+  width: 100%;
+}
+
+.home-hero {
+  text-align: center;
+  padding: 4em 1.5em 3.5em;
+  animation: intro 0.5s both;
+  animation-delay: 0.2s;
+
+  @include breakpoint($medium) {
+    padding: 5.5em 2em 4em;
+  }
+
+  &__title {
+    font-family: $header-font-family;
+    font-size: $type-size-1;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    margin: 0 0 0.4em;
+    color: var(--global-text-color);
+    line-height: 1.15;
+
+    @include breakpoint($medium) {
+      font-size: 3.2em;
+    }
+  }
+
+  &__tagline {
+    font-size: $type-size-4;
+    color: var(--global-text-color-light);
+    font-weight: 300;
+    margin: 0 auto 1.5em;
+    max-width: 32em;
+    line-height: 1.6;
+  }
+
+  &__cta {
+    margin-top: 1.5em;
+  }
+}
+
+.home-section {
+  padding: 3em 1.5em;
+  animation: intro 0.5s both;
+  animation-delay: 0.35s;
+
+  @include breakpoint($medium) {
+    padding: 3.5em 2em;
+  }
+
+  &--alt {
+    background-color: var(--global-surface-color);
+    border-top: 1px solid var(--global-border-color);
+    border-bottom: 1px solid var(--global-border-color);
+  }
+
+  &__inner {
+    max-width: 52em;
+    margin: 0 auto;
+  }
+
+  &__title {
+    font-family: $header-font-family;
+    font-size: $type-size-2;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 0 1.25em;
+    color: var(--global-text-color);
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  &__lead {
+    font-size: $type-size-4;
+    color: var(--global-text-color-light);
+    text-align: center;
+    max-width: 40em;
+    margin: 0 auto 2em;
+    line-height: 1.65;
+  }
+}
+
+.home-quote {
+  max-width: 36em;
+  margin: 0 auto;
+  padding: 1.5em 1.75em;
+  border-left: 3px solid var(--global-accent-color);
+  background: var(--global-surface-color);
+  border-radius: 0 $border-radius $border-radius 0;
+  font-family: $header-font-family;
+  font-size: $type-size-4;
+  font-style: italic;
+  color: var(--global-text-color);
+  line-height: 1.6;
+
+  cite {
+    display: block;
+    margin-top: 0.75em;
+    font-size: $type-size-6;
+    font-style: normal;
+    color: var(--global-text-color-light);
+  }
+}
+
+.home-cards {
+  display: grid;
+  gap: 1.25em;
+  margin-top: 1.5em;
+
+  @include breakpoint($medium) {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5em;
+  }
+}
+
+.home-card {
+  padding: 1.5em;
+  background: var(--global-bg-color);
+  border: 1px solid var(--global-border-color);
+  border-radius: $border-radius;
+  transition: $global-transition;
+
+  .home-section--alt & {
+    background: var(--global-bg-color);
+  }
+
+  &:hover {
+    border-color: var(--global-accent-color);
+    box-shadow: $box-shadow;
+  }
+
+  &__number {
+    display: inline-block;
+    font-family: $header-font-family;
+    font-size: $type-size-3;
+    font-weight: 600;
+    color: var(--global-accent-color);
+    margin-bottom: 0.35em;
+    line-height: 1;
+  }
+
+  &__title {
+    font-family: $header-font-family;
+    font-size: $type-size-4;
+    font-weight: 600;
+    margin: 0 0 0.5em;
+    color: var(--global-text-color);
+  }
+
+  p {
+    margin: 0;
+    font-size: $type-size-5;
+    color: var(--global-text-color-light);
+    line-height: 1.55;
+  }
+}
+
+.home-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5em 0 0;
+  display: grid;
+  gap: 0.75em;
+
+  @include breakpoint($medium) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+  }
+
+  li {
+    padding: 0.85em 1.1em;
+    background: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
+    border-radius: $border-radius;
+    font-size: $type-size-5;
+    color: var(--global-text-color);
+    transition: $global-transition;
+
+    .home-section--alt & {
+      background: var(--global-surface-color);
+    }
+
+    &:hover {
+      border-color: var(--global-accent-color);
+    }
+
+    &::before {
+      content: "·";
+      color: var(--global-accent-color);
+      font-weight: bold;
+      margin-right: 0.5em;
+    }
+  }
+}
+
+.home-cta-block {
+  text-align: center;
+  padding: 3.5em 1.5em 4em;
+
+  p {
+    font-size: $type-size-4;
+    color: var(--global-text-color-light);
+    max-width: 32em;
+    margin: 0 auto 1.5em;
+    line-height: 1.65;
+  }
+
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__email {
+    font-size: $type-size-5;
+    color: var(--global-link-color);
+
+    a {
+      color: inherit;
+      text-decoration: none;
+
+      &:hover {
+        color: var(--global-link-color-hover);
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.btn--home {
+  display: inline-block;
+  padding: 0.75em 1.75em;
+  background: var(--global-accent-color);
+  color: #1a1614 !important;
+  font-weight: 600;
+  font-size: $type-size-5;
+  border-radius: $border-radius;
+  text-decoration: none !important;
+  transition: $global-transition;
+  letter-spacing: 0.02em;
+
+  &:hover {
+    background: var(--global-accent-hover);
+    color: #1a1614 !important;
+    text-decoration: none !important;
+    transform: translateY(-1px);
+  }
+}
+
+html:not([data-theme="dark"]) .btn--home {
+  color: #faf7f2 !important;
+
+  &:hover {
+    color: #faf7f2 !important;
+  }
+}
+
+.booking-calendar {
+  margin-top: 2em;
+  padding: 1.5em;
+  background: var(--global-surface-color);
+  border: 1px solid var(--global-border-color);
+  border-radius: $border-radius;
+}

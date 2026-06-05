@@ -21,6 +21,7 @@
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
     @include suffix(2 of 12);
+    max-width: 45em;
   }
 
   .page__inner-wrap {
@@ -114,6 +115,14 @@
   blockquote + .small {
     margin-top: -1.5em;
     padding-left: 1.25rem;
+  }
+
+  blockquote {
+    border-left: 3px solid var(--global-accent-color);
+    padding-left: 1.25em;
+    font-family: $header-font-family;
+    font-style: italic;
+    color: var(--global-text-color);
   }
 }
 

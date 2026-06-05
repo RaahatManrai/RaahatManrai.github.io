@@ -1,0 +1,70 @@
+/* ==========================================================================
+  TURNING POINT THEME - DARK VERSION
+  Deep espresso elegance with warm gold accents
+  ========================================================================== */
+
+$primary-color              : #c9a962;
+$dark-primary-color         : #dfc07a;
+$light-primary-color        : #9a7a32;
+$background                 : #1a1614;
+$background-light           : #252019;
+$background-lighter         : #2e2820;
+$text                       : #f0ebe4;
+$text-muted                 : #a89f94;
+$link                       : #c9a962;
+$link-dark                  : #dfc07a;
+$link-light                 : #9a7a32;
+$footer                     : #141210;
+$border                     : rgba(201, 169, 98, 0.15);
+$border-light               : rgba(201, 169, 98, 0.28);
+
+$danger-color               : #e07a6a;
+$info-color                 : #c9a962;
+$notice-color               : #c9a962;
+$success-color              : #a8c97a;
+$warning-color              : #d4a84b;
+
+$border-radius              : 10px;
+$box-shadow                 : 0 2px 16px rgba(0, 0, 0, 0.25);
+$global-transition          : all 0.25s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+html[data-theme="dark"] {
+  --global-base-color                 : #{$primary-color};
+  --global-bg-color                   : #{$background};
+  --global-footer-bg-color            : #{$footer};
+  --global-border-color               : #{$border};
+  --global-dark-border-color          : #{$border-light};
+  --global-code-background-color      : #{$background-light};
+  --global-code-text-color            : #{$text-muted};
+  --global-fig-caption-color          : #{$text-muted};
+  --global-link-color                 : #{$link};
+  --global-link-color-hover           : #{$link-dark};
+  --global-link-color-visited         : #{$link-light};
+  --global-masthead-link-color        : #{$text};
+  --global-masthead-link-color-hover  : #{$primary-color};
+  --global-text-color                 : #{$text};
+  --global-text-color-light           : #{$text-muted};
+  --global-thead-color                : #{$background-lighter};
+  --global-surface-color              : #{$background-light};
+  --global-accent-color               : #{$primary-color};
+  --global-accent-hover               : #{$dark-primary-color};
+}
+
+html[data-theme="dark"] {
+  footer {
+    color: #{$text-muted};
+  }
+
+  body {
+    background-image: radial-gradient(
+      ellipse at 50% 0%,
+      rgba(201, 169, 98, 0.05) 0%,
+      transparent 55%
+    );
+  }
+}

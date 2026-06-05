@@ -60,6 +60,22 @@
 .page__footer-copyright {
   font-family: $global-font-family;
   font-size: $type-size-7;
+  line-height: 1.7;
+
+  a {
+    color: var(--global-link-color);
+
+    &:hover {
+      color: var(--global-link-color-hover);
+    }
+  }
+}
+
+.page__footer-disclaimer {
+  display: inline-block;
+  margin-top: 0.5em;
+  font-size: $type-size-8;
+  opacity: 0.85;
 }
 
 .page__footer-follow {

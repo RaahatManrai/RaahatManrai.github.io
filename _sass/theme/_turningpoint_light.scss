@@ -1,0 +1,70 @@
+/* ==========================================================================
+  TURNING POINT THEME - LIGHT VERSION
+  Warm cream minimalism with gold accents
+  ========================================================================== */
+
+$primary-color              : #b8943f;
+$dark-primary-color         : #9a7a32;
+$darker-primary-color       : #7a6230;
+$light-primary-color        : #dfc07a;
+$lighter-primary-color      : #f5edd8;
+$background                 : #faf7f2;
+$background-light           : #ffffff;
+$background-lighter         : #f5efe6;
+$text                       : #3d3632;
+$text-muted                 : #7a7268;
+$link                       : #9a7a32;
+$link-dark                  : #7a6230;
+$link-light                 : #b8943f;
+$footer                     : #f0ebe4;
+$border                     : rgba(201, 169, 98, 0.2);
+$border-dark                : rgba(201, 169, 98, 0.35);
+
+$danger-color               : #c45c4a;
+$info-color                 : #9a7a32;
+$notice-color               : #e8d5a8;
+$success-color              : #c9a962;
+$warning-color              : #d4a84b;
+
+$border-radius              : 10px;
+$box-shadow                 : 0 2px 12px rgba(61, 54, 50, 0.06);
+$global-transition          : all 0.25s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+:root {
+  --global-base-color                 : #{$primary-color};
+  --global-bg-color                   : #{$background};
+  --global-footer-bg-color            : #{$footer};
+  --global-border-color               : #{$border};
+  --global-dark-border-color          : #{$border-dark};
+  --global-code-background-color      : #{$background-lighter};
+  --global-code-text-color            : #{$darker-primary-color};
+  --global-fig-caption-color          : #{$text-muted};
+  --global-link-color                 : #{$link};
+  --global-link-color-hover           : #{$link-dark};
+  --global-link-color-visited         : #{$link-light};
+  --global-masthead-link-color        : #{$text};
+  --global-masthead-link-color-hover  : #{$primary-color};
+  --global-text-color                 : #{$text};
+  --global-text-color-light           : #{$text-muted};
+  --global-thead-color                : #{$lighter-primary-color};
+  --global-surface-color              : #{$background-light};
+  --global-accent-color               : #{$primary-color};
+  --global-accent-hover               : #{$dark-primary-color};
+}
+
+footer {
+  color: #{$text-muted};
+}
+
+body {
+  background-image: radial-gradient(
+    ellipse at 50% 0%,
+    rgba(201, 169, 98, 0.06) 0%,
+    transparent 60%
+  );
+}

@@ -24,11 +24,11 @@ const browserPref = window.matchMedia('(prefers-color-scheme: dark)').matches ? 
 
 // Set the theme on page load or when explicitly called
 let setTheme = (theme) => {
+  const stored_theme = localStorage.getItem("theme");
   const use_theme =
     theme ||
-    localStorage.getItem("theme") ||
-    $("html").attr("data-theme") ||
-    browserPref;
+    stored_theme ||
+    "dark";
 
   if (use_theme === "dark") {
     $("html").attr("data-theme", "dark");
@@ -90,14 +90,7 @@ $(document).ready(function () {
   const scssLarge = 925;          // pixels, from /_sass/_themes.scss
   const scssMastheadHeight = 70;  // pixels, from the current theme (e.g., /_sass/theme/_default.scss)
 
-  // If the user hasn't chosen a theme, follow the OS preference
   setTheme();
-  window.matchMedia('(prefers-color-scheme: dark)')
-        .addEventListener("change", (e) => {
-          if (!localStorage.getItem("theme")) {
-            setTheme(e.matches ? "dark" : "light");
-          }
-        });
 
   // Enable the theme toggle
   $('#theme-toggle').on('click', toggleTheme);
