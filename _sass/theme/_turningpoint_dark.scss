@@ -1,20 +1,20 @@
 /* ==========================================================================
   TURNING POINT THEME - DARK VERSION
-  Deep espresso elegance with warm gold accents
+  Midnight blue elegance with warm gold accents
   ========================================================================== */
 
 $primary-color              : #c9a962;
 $dark-primary-color         : #dfc07a;
 $light-primary-color        : #9a7a32;
-$background                 : #1a1614;
-$background-light           : #252019;
-$background-lighter         : #2e2820;
-$text                       : #f0ebe4;
-$text-muted                 : #a89f94;
+$background                 : #0f1419;
+$background-light           : #151b26;
+$background-lighter         : #1c2433;
+$text                       : #e8ecf2;
+$text-muted                 : #8a96a8;
 $link                       : #c9a962;
 $link-dark                  : #dfc07a;
 $link-light                 : #9a7a32;
-$footer                     : #141210;
+$footer                     : #0a0e14;
 $border                     : rgba(201, 169, 98, 0.15);
 $border-light               : rgba(201, 169, 98, 0.28);
 
@@ -63,7 +63,7 @@ html[data-theme="dark"] {
   body {
     background-image: radial-gradient(
       ellipse at 50% 0%,
-      rgba(201, 169, 98, 0.05) 0%,
+      rgba(100, 130, 200, 0.04) 0%,
       transparent 55%
     );
   }

@@ -4,7 +4,7 @@
 
 .masthead {
   position: fixed;
-  background: rgba(26, 22, 20, 0.82);
+  background: rgba(15, 20, 25, 0.82);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   height: fit-content;
@@ -72,7 +72,7 @@
 .masthead__menu-item--cta {
   a {
     background-color: var(--global-accent-color);
-    color: #1a1614 !important;
+    color: #0f1419 !important;
     border-radius: $border-radius;
     padding: 0.35em 1.2em;
     font-weight: 700;
@@ -81,7 +81,7 @@
 
     &:hover {
       background-color: var(--global-accent-hover);
-      color: #1a1614 !important;
+      color: #0f1419 !important;
     }
 
     &:before {

@@ -6,7 +6,7 @@ redirect_from:
   - /about/
 ---
 
-I'm **Dr Raahat Manrai, PhD** — an online counsellor offering confidential, compassionate support to clients worldwide. I founded **Turning Point Counselling** to make professional mental health support accessible, warm, and free from the barriers of distance or waiting rooms.
+I'm **Dr Raahat Manrai, PhD** — an online counsellor offering confidential, compassionate support to clients worldwide. I founded **North Star Counselling** to make professional mental health support accessible, warm, and free from the barriers of distance or waiting rooms.
 
 ## Background and qualifications
 

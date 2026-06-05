@@ -13,7 +13,7 @@ modified: 2026-06-05
 
 ## Counselling services
 
-Turning Point Counselling provides online counselling sessions conducted via secure video call. By booking a session, you agree to the terms outlined on this page.
+North Star Counselling provides online counselling sessions conducted via secure video call. By booking a session, you agree to the terms outlined on this page.
 
 ### Sessions
 
@@ -74,7 +74,7 @@ You may request access to, correction of, or deletion of personal data I hold ab
 
 ## Website use
 
-The content on this website is for general information about Turning Point Counselling. It does not constitute medical or psychiatric advice. Counselling is not a substitute for emergency mental health services or medical treatment.
+The content on this website is for general information about North Star Counselling. It does not constitute medical or psychiatric advice. Counselling is not a substitute for emergency mental health services or medical treatment.
 
 ## Contact
 

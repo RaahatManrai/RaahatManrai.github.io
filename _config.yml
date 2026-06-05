@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "turningpoint"
-title                    : "Turning Point Counselling"
+title                    : "North Star Counselling"
 title_separator          : "-"
 name                     : &name "Raahat Manrai"
 description              : &description "Online counselling with Dr Raahat Manrai — a warm, confidential space for support wherever you are in the world."
@@ -28,7 +28,7 @@ author:
   pronouns         : "she/her"  
   bio              : "Online counsellor offering confidential, compassionate support for stress, anxiety, and life transitions."
   location         : "Edinburgh, UK"
-  employer         : "Turning Point Counselling"
+  employer         : "North Star Counselling"
   uri              : "https://raahatmanrai.github.io"
   email            : "manrairaahat@gmail.com" 
 

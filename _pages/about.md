@@ -1,15 +1,15 @@
 ---
 layout: home
 permalink: /
-title: "Turning Point Counselling"
+title: "North Star Counselling"
 author_profile: false
 redirect_from: 
   - /about.html
 ---
 
 <div class="home-hero">
-  <h1 class="home-hero__title">Turning Point Counselling</h1>
-  <p class="home-hero__tagline">A warm, confidential space for online counselling — wherever you are in the world.</p>
+  <h1 class="home-hero__title">North Star Counselling</h1>
+  <p class="home-hero__tagline">by Dr Raahat Manrai — a warm, confidential space for online counselling, wherever you are in the world.</p>
   <div class="home-hero__cta">
     <a href="/book-your-session/" class="btn--home">Book your session</a>
   </div>
@@ -76,7 +76,7 @@ redirect_from:
 <div class="home-section">
   <div class="home-section__inner">
     <h2 class="home-section__title">Why online counselling</h2>
-    <p class="home-section__lead"><strong>Turning Point</strong> brings professional support to wherever you are. No commute, no waiting rooms — just a quiet corner and a conversation that can help you move forward.</p>
+    <p class="home-section__lead"><strong>North Star Counselling</strong> brings professional support to wherever you are. No commute, no waiting rooms — just a quiet corner and a conversation that can help you move forward.</p>
     <ul class="home-list">
       <li>Access support from anywhere in the world</li>
       <li>Flexible scheduling across time zones</li>
