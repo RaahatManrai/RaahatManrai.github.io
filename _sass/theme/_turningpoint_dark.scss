@@ -1,26 +1,26 @@
 /* ==========================================================================
   TURNING POINT THEME - DARK VERSION
-  Midnight blue elegance with warm gold accents
+  Midnight blue elegance with soft lavender accents
   ========================================================================== */
 
-$primary-color              : #c9a962;
-$dark-primary-color         : #dfc07a;
-$light-primary-color        : #9a7a32;
+$primary-color              : #9b8ec4;
+$dark-primary-color         : #b5a8d4;
+$light-primary-color        : #7a6dad;
 $background                 : #0f1419;
 $background-light           : #151b26;
 $background-lighter         : #1c2433;
 $text                       : #e8ecf2;
 $text-muted                 : #8a96a8;
-$link                       : #c9a962;
-$link-dark                  : #dfc07a;
-$link-light                 : #9a7a32;
+$link                       : #9b8ec4;
+$link-dark                  : #b5a8d4;
+$link-light                 : #7a6dad;
 $footer                     : #0a0e14;
-$border                     : rgba(201, 169, 98, 0.15);
-$border-light               : rgba(201, 169, 98, 0.28);
+$border                     : rgba(155, 142, 196, 0.18);
+$border-light               : rgba(155, 142, 196, 0.32);
 
 $danger-color               : #e07a6a;
-$info-color                 : #c9a962;
-$notice-color               : #c9a962;
+$info-color                 : #9b8ec4;
+$notice-color               : #9b8ec4;
 $success-color              : #a8c97a;
 $warning-color              : #d4a84b;
 
@@ -63,7 +63,7 @@ html[data-theme="dark"] {
   body {
     background-image: radial-gradient(
       ellipse at 50% 0%,
-      rgba(100, 130, 200, 0.04) 0%,
+      rgba(120, 130, 200, 0.04) 0%,
       transparent 55%
     );
   }

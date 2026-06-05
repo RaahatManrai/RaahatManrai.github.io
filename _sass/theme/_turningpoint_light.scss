@@ -1,29 +1,29 @@
 /* ==========================================================================
   TURNING POINT THEME - LIGHT VERSION
-  Warm cream minimalism with gold accents
+  Warm cream minimalism with soft lavender accents
   ========================================================================== */
 
-$primary-color              : #b8943f;
-$dark-primary-color         : #9a7a32;
-$darker-primary-color       : #7a6230;
-$light-primary-color        : #dfc07a;
-$lighter-primary-color      : #f5edd8;
+$primary-color              : #7a6dad;
+$dark-primary-color         : #6a5d9d;
+$darker-primary-color       : #5a4d8d;
+$light-primary-color        : #9b8ec4;
+$lighter-primary-color      : #e8e4f4;
 $background                 : #faf7f2;
 $background-light           : #ffffff;
 $background-lighter         : #f5efe6;
 $text                       : #3d3632;
 $text-muted                 : #7a7268;
-$link                       : #9a7a32;
-$link-dark                  : #7a6230;
-$link-light                 : #b8943f;
+$link                       : #7a6dad;
+$link-dark                  : #6a5d9d;
+$link-light                 : #9b8ec4;
 $footer                     : #f0ebe4;
-$border                     : rgba(201, 169, 98, 0.2);
-$border-dark                : rgba(201, 169, 98, 0.35);
+$border                     : rgba(122, 109, 173, 0.22);
+$border-dark                : rgba(122, 109, 173, 0.35);
 
 $danger-color               : #c45c4a;
-$info-color                 : #9a7a32;
-$notice-color               : #e8d5a8;
-$success-color              : #c9a962;
+$info-color                 : #7a6dad;
+$notice-color               : #e8e4f4;
+$success-color              : #9b8ec4;
 $warning-color              : #d4a84b;
 
 $border-radius              : 10px;
@@ -64,7 +64,7 @@ footer {
 body {
   background-image: radial-gradient(
     ellipse at 50% 0%,
-    rgba(201, 169, 98, 0.06) 0%,
+    rgba(155, 142, 196, 0.06) 0%,
     transparent 60%
   );
 }
