@@ -6,15 +6,15 @@
 $primary-color              : #9b8ec4;
 $dark-primary-color         : #b5a8d4;
 $light-primary-color        : #7a6dad;
-$background                 : #0f1419;
-$background-light           : #151b26;
-$background-lighter         : #1c2433;
+$background                 : #1b222c;
+$background-light           : #252e3c;
+$background-lighter         : #303a4a;
 $text                       : #e8ecf2;
 $text-muted                 : #8a96a8;
 $link                       : #9b8ec4;
 $link-dark                  : #b5a8d4;
 $link-light                 : #7a6dad;
-$footer                     : #0a0e14;
+$footer                     : #171d27;
 $border                     : rgba(155, 142, 196, 0.18);
 $border-light               : rgba(155, 142, 196, 0.32);
 
@@ -63,7 +63,7 @@ html[data-theme="dark"] {
   body {
     background-image: radial-gradient(
       ellipse at 50% 0%,
-      rgba(120, 130, 200, 0.04) 0%,
+      rgba(120, 130, 200, 0.055) 0%,
       transparent 55%
     );
   }
