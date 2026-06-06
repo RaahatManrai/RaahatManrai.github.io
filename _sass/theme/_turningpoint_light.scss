@@ -8,15 +8,15 @@ $dark-primary-color         : #6a5d9d;
 $darker-primary-color       : #5a4d8d;
 $light-primary-color        : #9b8ec4;
 $lighter-primary-color      : #e8e4f4;
-$background                 : #faf7f2;
-$background-light           : #ffffff;
-$background-lighter         : #f5efe6;
+$background                 : #ebe4da;
+$background-light           : #f5f0e8;
+$background-lighter         : #f0e9df;
 $text                       : #3d3632;
 $text-muted                 : #7a7268;
 $link                       : #7a6dad;
 $link-dark                  : #6a5d9d;
 $link-light                 : #9b8ec4;
-$footer                     : #f0ebe4;
+$footer                     : #e5ddd2;
 $border                     : rgba(122, 109, 173, 0.22);
 $border-dark                : rgba(122, 109, 173, 0.35);
 
@@ -64,7 +64,7 @@ footer {
 body {
   background-image: radial-gradient(
     ellipse at 50% 0%,
-    rgba(155, 142, 196, 0.06) 0%,
+    rgba(155, 142, 196, 0.03) 0%,
     transparent 60%
   );
 }

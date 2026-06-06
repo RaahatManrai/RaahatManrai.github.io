@@ -7,14 +7,24 @@ redirect_from:
   - /resume
 ---
 
+<div class="cv-intro">
+
 **Raahat Manrai**  
 Postdoctoral Research Associate · PhD, MSc, BA(Hons)
 
-[raahatmanrai@outlook.com](mailto:raahatmanrai@outlook.com) · [ORCID](https://orcid.org/0000-0002-9126-1884) · [Google Scholar](https://scholar.google.com/citations?user=PS_CX0AAAAAJ)
+[{{ site.author.email }}](mailto:{{ site.author.email }}) · [ORCID](https://orcid.org/0000-0002-9126-1884) · [Google Scholar](https://scholar.google.com/citations?user=PS_CX0AAAAAJ)
+
+</div>
+
+<div class="cv-section-box">
 
 ## Profile
 
 Mental health researcher with expertise in qualitative and participatory research methods, particularly co-production with marginalized populations. Research spans developmental trauma in care-experienced youth to sleep and circadian health in bipolar disorder. Specialized in longitudinal data collection using digital methods and stakeholder engagement.
+
+</div>
+
+<div class="cv-section-box">
 
 ## Education
 
@@ -39,6 +49,10 @@ Panjab University, India · July 2013 – June 2016
 - Accredited by the British Psychological Society
 - Group project: Understanding gender differences in self-concept and quality of life in middle-aged urban adults
 
+</div>
+
+<div class="cv-section-box">
+
 ## Research Experience
 
 **Postdoctoral Research Associate (AMBIENT-BD)**  
@@ -61,6 +75,10 @@ University of Edinburgh · August 2020 – March 2021
 
 Research assistant on neuro-trauma training project for residential care staff. Responsibilities included data collection, participant liaison, and facilitating focus groups.
 
+</div>
+
+<div class="cv-section-box">
+
 ## Teaching Experience
 
 **Supervision (University of Edinburgh)** · October 2020 – Present
@@ -77,6 +95,10 @@ Institute of Academic Development, University of Edinburgh · August 2021 – Ap
 
 Intern on the development of a student EDI course called 'Living Together as Equals' for university students. Conducted focus groups in the form of student consultations, assisted in designing the course, and liaised with different levels of stakeholders.
 
+</div>
+
+<div class="cv-section-box">
+
 ## Grant Applications
 
 - **Lead applicant:** EMH Network Conference Bursary 2025 — June 2025
@@ -86,6 +108,10 @@ Intern on the development of a student EDI course called 'Living Together as Equ
 - **Lead applicant:** Student Experience Grants (ConveRACEions) — January 2022
 - **Co-applicant:** Social Responsibility & Sustainability Student Project Grant (ConveRACEions) — January 2021
 - **Co-applicant:** Student Experience Grants (Research Bow) — December 2020
+
+</div>
+
+<div class="cv-section-box">
 
 ## Publications
 
@@ -97,12 +123,20 @@ Intern on the development of a student EDI course called 'Living Together as Equ
 - Woellenstein, L. E., Cuthill, F., Manrai, R., & Henderson, D. (2023). Homelessness Prevention Interventions for Single Adults at Risk of or Experiencing MEH: A Systematic Review on their Effectiveness. *International Journal on Homelessness*, 2(2), 1–67. [https://doi.org/10.5206/ijoh.2022.2.14681](https://doi.org/10.5206/ijoh.2022.2.14681)
 - Manrai, R., Alaeddine, R., Elorreaga, G., Garrett, L., & Guerra, C. (2021). What do the potential recipients of disclosure of OSA say? Perspectives from adolescent residents in Scotland and Chile. *Child Abuse & Neglect*, 117, 105034. [https://doi.org/10.1016/j.chiabu.2021.105034](https://doi.org/10.1016/j.chiabu.2021.105034)
 
+</div>
+
+<div class="cv-section-box">
+
 ## Qualifications & Awards
 
 - Associate Fellowship with the Higher Education Academy — Advance HE (May 2022) (Fellowship Reference: PR241936)
 - Nominated 'Best Student Tutor' — EUSA Teaching Awards (January 2023)
 - Winner SRS Changemaker Award — ConveRACEions (March 2021)
 - Winner EUSA Student Awards (Best Enterprise Award) — Research Bow (March 2021)
+
+</div>
+
+<div class="cv-section-box">
 
 ## Academic Citizenship
 
@@ -118,6 +152,10 @@ Intern on the development of a student EDI course called 'Living Together as Equ
 - Writer, Proofreader & Publisher: Research Bow (2020–2023) — research-based community blog endorsed by HiSS
 - Secretary: ScotDPN (Scottish Network for Developmental Psychology Graduates) (2020–2021)
 
+</div>
+
+<div class="cv-section-box">
+
 ## Industry Experience
 
 **Youth Worker**  
@@ -130,6 +168,10 @@ Supermums Pvt Ltd · October 2018 – November 2019
 
 Worked as a nursery and after-school practitioner in several pre and primary schools in Edinburgh, with children aged 5–12, organising group activities including arts and crafts, reading clubs, and sport camps. Provided specialised support to children with intellectual disabilities including Down Syndrome, Conduct Disorders, and Autism Spectrum Disorder.
 
+</div>
+
+<div class="cv-section-box">
+
 ## Skills
 
 - **Qualitative Research Methods:** Interviews, Focus Groups, DELPHI Methodology
@@ -137,6 +179,10 @@ Worked as a nursery and after-school practitioner in several pre and primary sch
 - **Software:** NVivo, SPSS, R/R Studio, Qualtrics, RedCap
 - **Stakeholder Engagement & Co-production**
 - **Languages:** English (Fluent), Hindi (Native), French (Intermediate)
+
+</div>
+
+<div class="cv-section-box">
 
 ## Conferences & Dissemination
 
@@ -151,3 +197,5 @@ Worked as a nursery and after-school practitioner in several pre and primary sch
 - Moving the Centre Conference 2021 — ConveRACEions: Reflections of creating virtual spaces for conversations about race and racism (Invited Workshop)
 - Edinburgh Learning & Teaching Conference 2021 — Microaggressions Project (Oral Presentation)
 - 3rd Virtual International Complex Trauma Conference 2021 — Understanding the psychosocial characteristics of complex trauma exposure in care-experienced adolescents (Oral Presentation)
+
+</div>
