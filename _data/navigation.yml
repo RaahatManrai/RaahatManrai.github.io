@@ -8,8 +8,6 @@ main:
   - title: "About me"
     url: /about-me/
     children:
-      - title: "CV"
-        url: /cv/
       - title: "Publications"
         url: /publications/
       - title: "Blog Posts"
