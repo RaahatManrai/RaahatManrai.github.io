@@ -41,13 +41,13 @@
     font-size: $type-size-4;
     color: var(--global-text-color-light);
     font-weight: 300;
-    margin: 0 auto 1.5em;
+    margin: 0 auto 0.75em;
     max-width: 32em;
     line-height: 1.6;
   }
 
   &__cta {
-    margin-top: 1.5em;
+    margin-top: 0.75em;
   }
 }
 
